@@ -1,0 +1,11 @@
+id = "ignis"
+name = "Ignis"
+description = "Ignis support."
+version = "0.1.0"
+schema_version = 1
+authors = ["Ignacio Perez <ignacio@feuer.me>"]
+repository = "https://github.com/Ignis-lang/zed"
+
+[grammars.ignis]
+repository = "https://github.com/Ignis-lang/tree-sitter-ignis"
+commit = "23fc455990727e896a2dbdfc9dfa1989dd4e0ff5"
