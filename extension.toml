@@ -1,7 +1,7 @@
 id = "ignis"
 name = "Ignis"
 description = "Ignis support."
-version = "0.1.0"
+version = "0.1.2"
 schema_version = 1
 authors = ["Ignacio Perez <ignacio@feuer.me>"]
 repository = "https://github.com/Ignis-lang/zed"
@@ -9,3 +9,7 @@ repository = "https://github.com/Ignis-lang/zed"
 [grammars.ignis]
 repository = "https://github.com/Ignis-lang/tree-sitter-ignis"
 commit = "main"
+
+[language_servers.ignis]
+name = "Ignis Language Server"
+languages = ["Ignis"]
