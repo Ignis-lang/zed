@@ -1,7 +1,7 @@
 name = "Ignis"
 grammar = "ignis"
 path_suffixes = ["ign"]
-line_comments = ["// "]
+line_comments = ["// ", "///", "//!"]
 autoclose_before = ";:.,=}])"
 brackets = [
     { start = "{", end = "}", close = true, newline = true },
